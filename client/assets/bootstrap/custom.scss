@@ -1,0 +1,20 @@
+@import 'color-scheme';
+
+$theme-colors: (
+        "primary": $primary,
+        "primary--50": rgba($primary, 0.5),
+        "primary--10": rgba($primary, 0.1),
+        "secondary": $secondary,
+        "secondary--50": rgba($secondary, 0.5),
+        "success": $success,
+        "danger": $danger,
+        "warning": $warning,
+        "info": $info,
+        "light": $light,
+        "dark": $dark,
+        "muted": $muted,
+        "white": $white
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
