@@ -1,24 +1,6 @@
 version: "3"
 
 services:
-  client:
-    container_name: client
-    build:
-      context: ./client
-    ports:
-      - "80:3000"
-    command: "npm run start"
-    depends_on:
-      - server
-  server:
-    container_name: server
-    build:
-      context: ./server
-    ports:
-      - "2000:2000"
-    command: "node server.js"
-    depends_on:
-      - mongo
   mongo:
     container_name: mongo
     image: "mongo:latest"
