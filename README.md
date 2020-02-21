@@ -17,6 +17,7 @@ You just need to download [Docker Desktop](https://hub.docker.com/?overlay=onboa
 
 ```
 cd client
+npm install
 npm run dev
 ```
 
@@ -30,6 +31,7 @@ docker-compose up mongo
 
 ```
 cd server
+npm install
 npm run dev
 ```
 
